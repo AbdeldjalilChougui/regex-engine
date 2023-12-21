@@ -1,0 +1,16 @@
+[package]
+name = "regex-engine"
+version = "0.1.0"
+edition = "2021"
+authors = ["Abdeldjalil Chougui"]
+license = "MIT"
+description = "Regex engine from scratch: parser, Thompson NFA, Pike VM and a lazy DFA"
+
+[[bin]]
+name = "rgrep"
+path = "src/main.rs"
+
+[dependencies]
+
+[dev-dependencies]
+regex = "1"
